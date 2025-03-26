@@ -13,10 +13,9 @@
 //output : Your current balance is 1100.*/
 public class CreditDebitBankOperations {
 	int initialBal = 1000;
-	int debitBal = 500 ;
+	int debitBal = 500;
 	int creditBal = 300;
 	int currentBal = initialBal;
-	
 
 	public static void main(String[] args) {
 		CreditDebitBankOperations creditDebitBankOperations = new CreditDebitBankOperations();
@@ -28,7 +27,7 @@ public class CreditDebitBankOperations {
 	}
 
 	private void displayCurrentBal() {
-		System.out.println("My current balance is: "+currentBal);
+		System.out.println("My current balance is: " + currentBal);
 	}
 
 	private void debitAmt() {
