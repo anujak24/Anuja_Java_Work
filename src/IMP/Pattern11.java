@@ -17,7 +17,6 @@ public class Pattern11 {
 				System.out.print(i);
 			}
 			System.out.println();
-
 		}
 	}
 

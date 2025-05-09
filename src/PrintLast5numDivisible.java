@@ -5,9 +5,9 @@ public class PrintLast5numDivisible {
 	public static void main(String[] args) {
 		PrintLast5numDivisible printLast5numDivisible = new PrintLast5numDivisible();
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Please send start int");
+		System.out.println("Please send start int should be greater than 0");
 		int input1 = sc.nextInt();
-		System.out.println("Please send second int");
+		System.out.println("Please send second int shold be greater then 1st one");
 		int input2 = sc.nextInt();
 		printLast5numDivisible.printLast5NumDivisibleBy5(input1, input2);
 	}

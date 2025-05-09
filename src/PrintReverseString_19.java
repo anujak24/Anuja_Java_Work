@@ -13,7 +13,7 @@ public class PrintReverseString_19 {
 		System.out.println("Output string which printed reversed is as below");
 		System.out.println();
 		for(int i = strLength-1 ; i>=0 ; i--) {
-			System.out.print(inputStrinputStr.charAt(i)+" ");
+			System.out.print(inputStrinputStr.charAt(i));
 		}
 	}
 

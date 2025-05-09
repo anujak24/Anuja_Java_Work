@@ -4,7 +4,7 @@ public class LengthWithoutSpace_21 {
 	public static void main(String[] args) {
 		LengthWithoutSpace_21 lengthWithoutSpace_21 = new LengthWithoutSpace_21();
 		String inputStr = "prem lata gupta";
-		System.out.println("Input stirng is: " + inputStr);
+		System.out.println("Input string is: " + inputStr);
 		lengthWithoutSpace_21.countLenthWithoutSpace(inputStr);
 	}
 
