@@ -9,8 +9,7 @@ public class FreqOfEachCharInString_32_imp {
 	public static void getFreqOfEachChar(String input) {
 		for(int i = 0 ; i <input.length();i++) {
 			char ch = input.charAt(i);
-			int indexOfEachChar = input.indexOf(ch);
-			if(i==indexOfEachChar) {
+			if(i==input.indexOf(ch)) {
 				countCharFreq(input, ch);
 			}
 		}
